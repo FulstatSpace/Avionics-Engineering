@@ -32,6 +32,24 @@ Example:
 ```
 ### Chapter 3 - The Integer Type Variable
 ### Chapter 4 - Logical Compares & precedence
+
+```
+     **     not    abs      -- Highest precedence
+ 
+     *      /      mod rem  -- Multiplying operators
+ 
+     +      -               -- Unary operators
+ 
+     +      -      &        -- Binary adding operators
+ 
+     =      /=     <        -- Relational operators 
+     <=     >      >=       -- Relational operators 
+     in     not in          -- (same precedence)
+ 
+     and    or     xor      -- Logical operators 
+     and then      or else  -- (same precedence)
+```
+
 ### Chapter 5 - Control Structures
 ### Chapter 6 - Additional Scalar Types
 ### Chapter 7 - Derived Types
