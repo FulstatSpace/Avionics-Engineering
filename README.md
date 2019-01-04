@@ -6,6 +6,22 @@ Các hệ thống điều khiển máy bay như hệ thống điện tử hàng 
 
 Mỗi bộ điều khiển thường là một mô-đun độc lập (phần cứng và phần mềm) vì lý do an toàn: Chúng là các hệ thống giám sát và kiểm soát quan trọng và nếu một trong số chúng bị hỏng, thì đó là một **bất tiện** khá lớn đối với những người tùy thuộc vào máy bay. Độ tin cậy có tất cả ý nghĩa của nó khi bạn ở trong máy bay. Vì vậy, thường là nó:
 
-+ Tùy chỉnh được xây dựng cho mục đích nhiệm vụ của chúng
++ Tùy chỉnh xây dựng cho mục đích nhiệm vụ của chúng
 + Được xây dựng để hoạt động độc lập và giao diện với các hệ thống khác
 + Được chế tạo để có khả năng chịu lỗi đối với các lỗi của chính nó và các lỗi của các hệ thống khác mà nó gây ra (vì bạn không muốn hệ thống âm thanh của phi công mất kiểm soát động cơ, chẳng hạn).
+
+
+Nó không phải là một máy tính lớn chạy mọi thứ. Nếu bạn nghĩ về nó từ một chiếc máy bay quân sự chứ không phải là một chiếc máy bay thương mại (mặc dù nó tương tự về mặt này): Nếu một phần bị bắn vào, ít nhất bạn sẽ có một số phần khác có thể để tiếp tục hoạt động (phần kiểm soát các hệ thống thông tin liên lạc và thiết bị hệ thống an toàn có thể để duy trì sự sống). Do đó, cũng có một loạt các nút lớn bạn thấy trong máy bay phản lực, để theo dõi trạng thái của các hệ thống khác nhau.
+
+Chúng thường được xây dựng như các thành phần tùy chỉnh vận hành hệ thống của riêng chúng hoặc chúng được chạy và lên lịch bởi micro-kernel (trong hầu hết các trường hợp, có hỗ trợ cho các khả năng thời gian thực).
+
+Rõ ràng, nó phụ thuộc vào các nhà cung cấp và quốc gia, nhưng ít nhất họ thường phải tuân theo các bộ quy định khá nghiêm ngặt, yêu cầu thiết kế và đặc thù giao thức, cho phép:
+
++ Sự kiểm soát tuân thủ nghiêm ngặt của họ đối với các tiêu chuẩn an ninh và an toàn
++ Việc liên lạc với các hệ thống khác (tốt hơn nhiều nếu chiếc máy bay mà bạn cất cánh ở Reykjavik có thể **nói chuyện** với thiết bị điều khiển mặt đất ở Tokyo,...)
+
+Các hệ thống trên không như vậy thường là dạng phần mềm bespoke, nhưng các hệ thống sau được biết là được sử dụng trong một số máy bay:
+
++ VxWorks 6.4 POSIX PSE52
++ WinDriver của VxWorks 
++ QNX (thực sự không chắc chắn QNX được sử dụng trong máy bay, nhưng nó được sử dụng trong các hệ thống điều khiển mặt đất)
