@@ -2,7 +2,7 @@ with Ada.Text_IO, Ada.Integer_Text_IO;
 use Ada.Text_IO, Ada.Integer_Text_IO;
 
 procedure OneInt is
-   Index : INTEGER; // Put a name variable            
+   Index : INTEGER; -- Put a name variable            
 begin
 
    Index := 23;
