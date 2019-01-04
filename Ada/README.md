@@ -33,6 +33,8 @@ Example:
 ### Chapter 3 - The Integer Type Variable
 ### Chapter 4 - Logical Compares & precedence
 
+Độ ưu tiên toán tử trong Ada 95
+
 ```
      **     not    abs      -- Highest precedence
  
