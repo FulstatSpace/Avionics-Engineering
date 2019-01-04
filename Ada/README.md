@@ -4,6 +4,32 @@ Ada là ngôn ngữ lập trình xuất xứ từ Bộ quốc phòng Mỹ vào k
 
 ### Chapter 1 - Getting Started
 ### Chapter 2 - Program Structure
+
+```
+    procedure <program name> is
+       <declarative part>
+    begin 
+       <executable part>
+    end <optional repeat of program name>;
+
+```
+
+Example:
+
+```ada
+  with Ada.Text_IO; 
+  use Ada.Text_IO;
+  procedure UglyForm is 
+  begin 
+    Put("Good form ");
+    Put("can aid in ");
+    Put  ("understanding a program,");
+    New_Line;
+    Put("and bad form ");
+    Put("can make a program ");Put("unreadable.");
+    New_Line;
+  end UglyForm;
+```
 ### Chapter 3 - The Integer Type Variable
 ### Chapter 4 - Logical Compares & precedence
 ### Chapter 5 - Control Structures
