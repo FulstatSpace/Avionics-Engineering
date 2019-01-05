@@ -55,6 +55,25 @@ Example:
 ### Chapter 5 - Control Structures
 ### Chapter 6 - Additional Scalar Types
 ### Chapter 7 - Derived Types
+
+_**Enumeration**_:
++ type State is (Idle, Waiting, Active);
+
+_**Signed integer**_:
++ type Age is range 0..125;
+
+_**Modular integer**_:
++ type Hash_Index is mod Hash_Size;
+
+_**Floating point**_:
++ type Length is digits 5 range 0.0 .. 4.0E6;
+
+_**Binary fixed point**_:
++ type Voltage is delta 0.1 range 0.0 .. 100.0;
+
+_**Decimal**_:
++ type Euros is delta 0.01 digits 11;
+
 ### Chapter 8 - Subprograms
 ### Chapter 9 - Blocks and Scope of variables
 ### Chapter 10 - Arrays
