@@ -10,7 +10,7 @@ procedure CH07_1 is
    type SALAD_INT  is new INTEGER;
    type ANIMAL_INT is new INTEGER;
    type TREE_INT   is new INTEGER range -557..1098;
-
+   -- Define data type
    package Salad_Int_IO is new Ada.Text_IO.Integer_IO(SALAD_INT);
    use Salad_Int_IO;
 
