@@ -27,8 +27,8 @@ begin
    Day_Of_Week := WED;                       -- WED
    Day_Of_Week := DAY'FIRST;                 -- MON
    Day_Of_Week := DAY'LAST;                  -- SUN
-   Day_Of_Week := DAY'PRED(Day_Of_Week);     -- SAT
-   Day_Of_Week := DAY'SUCC(PLAY_DAY'FIRST);  -- SUN
+   Day_Of_Week := DAY'PRED(Day_Of_Week);     -- SAT, Previous
+   Day_Of_Week := DAY'SUCC(PLAY_DAY'FIRST);  -- SUN, Rearguard
    Index := DAY'POS(MON);                    -- 0
    Index := DAY'POS(WED);                    -- 2
    Day_Of_Week := DAY'VAL(1);                -- TUE
