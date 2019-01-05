@@ -40,3 +40,13 @@ begin
    end loop;
 end OddSqre;
 
+-- The Odd Square of -3 is   -9
+-- The Odd Square of -2 is   -4
+-- The Odd Square of -1 is   -1
+-- The Odd Square of  0 is    0
+-- The Odd Square of  1 is    1
+-- The Odd Square of  2 is    4
+-- The Odd Square of  3 is    9
+-- The Odd Square of  4 is   16
+
+
