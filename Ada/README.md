@@ -78,6 +78,18 @@ Example:
 ### Chapter 28 - The Conditional Rendezvous
 ### Chapter 29 - Additional Tasking Topics
 ### Chapter 30 - Generic Subprograms
-### Chapter 31- Generic Packages
+### Chapter 31 - Generic Packages
 ### Chapter 32 - Control of Representation
 ### Chapter 33 - More Example Programs
+### Chapter 34 - Unique Ada
++ AWS (Ada Web Server)
+
+  A complete web development framework
+
++ ASIS (Ada Semantic Interface Specification)
+
+  Makes it easy to write tools to process and analyze Ada sources
+
++ Bindings are available for most usual components
+  
+  _Posix, Win32, X, Motif, Gtk, Qt, Tcl, Python, Lua, Ncurses, Bignums, Corba, MySQL, PostGres,..._
