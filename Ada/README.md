@@ -93,3 +93,7 @@ Example:
 + Bindings are available for most usual components
   
   _Posix, Win32, X, Motif, Gtk, Qt, Tcl, Python, Lua, Ncurses, Bignums, Corba, MySQL, PostGres,..._
+  
++ Components, APIs, tutorials…
+  
+  _http://docs.adacore.com/live/wave/libadalang/html/libadalang_ug/index.html, adapower.com, adaworld.com_
