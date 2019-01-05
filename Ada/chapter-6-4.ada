@@ -2,11 +2,8 @@ with Ada.Text_IO, Ada.Integer_Text_IO;
 use Ada.Text_IO, Ada.Integer_Text_IO;
 
 procedure IncrInt is
-
    Index : INTEGER;
-
 begin
-
    Index := 13;
    Index := INTEGER'POS(Index);  
    Put(Index);
