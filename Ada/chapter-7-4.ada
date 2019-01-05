@@ -2,8 +2,8 @@ with Text_IO;
 with Gnat.Io; use Gnat.Io;
 procedure Enumio is
    type Some_Enum_Type is (Dog, Cat, Fish, Snail, Slug, Snake);
-   package Some_Enum_IO is new Text_Io.Enumeration_IO(Some_Enum_Type);
-   use Some_Enum_IO;
+   package Enum is new Text_Io.Enumeration_IO(Some_Enum_Type);
+   use Enum;
    
    Fred: Some_Enum_Type;
    Ch: Character;
